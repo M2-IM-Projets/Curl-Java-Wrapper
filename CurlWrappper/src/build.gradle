@@ -1,0 +1,44 @@
+/**
+ * Yves Hwang
+ * macyves.wordpress.com
+ * 07.10.2014
+ */
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'findbugs'
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.apache.httpcomponents:httpclient:4.3.2'
+    compile 'org.apache.httpcomponents:httpmime:4.3.2'
+    compile 'commons-codec:commons-codec:1.9'
+    runtime 'org.apache.httpcomponents:httpclient:4.3.2'
+    runtime 'org.apache.httpcomponents:httpmime:4.3.2'
+    runtime 'commons-codec:commons-codec:1.9'
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.apache.httpcomponents:httpclient:4.3.2'
+    testCompile 'org.apache.httpcomponents:httpmime:4.3.2'
+    testCompile 'commons-codec:commons-codec:1.9'
+    testRuntime 'junit:junit:4.11'
+    testRuntime 'org.apache.httpcomponents:httpclient:4.3.2'
+    testRuntime 'org.apache.httpcomponents:httpmime:4.3.2'
+    testRuntime 'commons-codec:commons-codec:1.9'
+}
+
+compileJava {
+    options.fork = false
+    options.encoding = 'UTF-8'
+    options.compilerArgs << "-Xlint:all" << "-Werror"
+    sourceCompatibility = '1.7'
+    targetCompatibility = '1.7'
+}
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}

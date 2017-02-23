@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.0%Foundation-1.0"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/access-bridge-64.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/cldrdata.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.10-sources.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.10-tests.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-codec-1.10-test-sources.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/fluent-hc-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/httpclient-cache-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/httpclient-win-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/nashorn.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="/home/clover/workspace/ext/zipfs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
